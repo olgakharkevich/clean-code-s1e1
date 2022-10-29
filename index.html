@@ -7,22 +7,22 @@
 </head>
 <body class="page">
   <section class="image">
-    <img class="picture" src="./eisenhower-matrix.jpg" alt="Picture">
-    <a class="info" href="https://goal-life.com/page/method/matrix-eisenhower">
+    <img class="image__img" src="./eisenhower-matrix.jpg" alt="Picture">
+    <a class="image__info" href="https://goal-life.com/page/method/matrix-eisenhower">
       Want more details?
     </a>
   </section>
   <section class="container">
-    <div id="add-item">
-      <label class="add-task-title" for="add-task">Add Item</label>
-      <div class="add-task-wrapper">
+    <div class="add-task">
+      <label class="add-task__title" for="add-task">Add Item</label>
+      <div class="add-task__wrapper">
         <input id="add-task"class="task input" type="text">
         <button class="btn add">Add</button>
       </div>
     </div>
     <h3 class="section-title">Todo</h3>
-    <ul id="todo-tasks">
-      <li class="task-item">
+    <ul class="tasks" id="todo-tasks">
+      <li class="tasks__item">
         <input class="checkbox" type="checkbox">
         <label class="task title">Pay Bills</label>
         <input type="text" class="task input">
@@ -31,7 +31,7 @@
           <img class="icon" src="./remove.svg" alt="Remove Button">
         </button>
       </li>
-      <li class="task-item edit-mode">
+      <li class="tasks__item tasks__item_edit-mode">
         <input class="checkbox" type="checkbox">
         <label class="task title">Go Shopping</label>
         <input type="text" value="Go Shopping" class="task input">
@@ -42,8 +42,8 @@
       </li>
     </ul>
     <h3 class="section-title">Completed</h3>
-    <ul id="completed-tasks">
-      <li class="task-item">
+    <ul class="tasks" id="completed-tasks">
+      <li class="tasks__item">
         <input class="checkbox" type="checkbox" checked>
         <label class="task title">See the Doctor</label>
         <input type="text" class="task input">
