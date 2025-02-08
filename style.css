@@ -29,8 +29,10 @@ input,button{
 }
 
 @media (max-width:768px) {
+
   .image { text-align: center;
   }
+  
 }
 .container {
   display: block;
